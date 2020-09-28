@@ -129,7 +129,7 @@ class mockups to your super object.
 Get the _class name_ of a core class, so that you can instantiate
 it. The variable is returned by reference and is tied to the correct
 $GLOBALS key. For example:
-    
+
 	$cfg =& $this->ci_core_class('cfg'); // returns 'CI_Config'
     $cfg = new $cfg; // instantiates config and overwrites the CFG global
 
