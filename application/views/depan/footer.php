@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="sitemap">
-                        <h3 style="font-family: Carnas">Menu Utama</h3>
+                        <h3>Menu Utama</h3>
                         <ul>
                             <li><a href="<?php echo site_url();?>">Home</a></li>
                             <li><a href="<?php echo site_url('about');?>">About</a></li>
