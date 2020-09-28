@@ -5,14 +5,14 @@
             <div class="col-md-3">
                 <div class="foot-logo">
                     <a href="<?php echo site_url();?>">
-                        <img src="<?php echo base_url().'theme/images/logo.png'?>" class="img-fluid" alt="footer_logo">
+                        <img src="<?php echo base_url().'theme/images/logo-footer.png'?>" class="img-fluid" alt="footer_logo" width="200px;">
                     </a>
-                    <p><?php echo date('Y');?> © copyright by <a href="http://mfikri.com" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
+                    <p><?php echo date('Y');?> © copyright by <a href="http://mfikri.com" target="_blank">Baitulmal Al-Furqan</a>. <br>All rights reserved.</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="sitemap">
-                        <h3>Menu Utama</h3>
+                        <h3 style="font-family: Carnas">Menu Utama</h3>
                         <ul>
                             <li><a href="<?php echo site_url();?>">Home</a></li>
                             <li><a href="<?php echo site_url('about');?>">About</a></li>

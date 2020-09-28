@@ -39,6 +39,7 @@ Author:
 /* ==========================================================================
    Font
    ========================================================================== */
+
 /* ==========================================================================
    Color
    ========================================================================== */
@@ -284,7 +285,9 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
-  font-family: "Lora", serif; }
+  font-family: "Carnas", serif; }
+  /* font-family: "carnas", serif; } */
+
 
 h1 {
   font-size: 54px; }
@@ -311,7 +314,7 @@ a {
     color: #2d2d2d; }
 
 .btn {
-  font-family: "Lora", serif;
+  font-family: "Carnas", serif;
   cursor: pointer; }
 
 /* ==============================================================
@@ -1031,7 +1034,7 @@ a {
    FOOTER
    ============================================================== */
 footer {
-  background: #2d2d2d;
+  background: #077a5f;
   padding: 60px 0 100px; }
 
 .subscribe {
@@ -1061,7 +1064,9 @@ footer {
       margin: 10px 0 15px; } }
 
 .signup_form {
-  font-family: "Lora", serif;
+
+  /* font-family: "Lora", serif; */
+  font-family: "Carnas", serif;
   background: #3f3f3f;
   font-size: 17px;
   border: none;
@@ -3646,3 +3651,11 @@ div.panel {
     transition: all 0.2s ease; } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+@font-face {
+	font-family: 'Carnas';
+	src: url('../fonts/Carnas_Regular.otf');
+	src: url('../fonts/Carnas_Regular.otf') format('otf'),
+	     url('../fonts/Carnas_Regular.otf') format('truetype');
+}
