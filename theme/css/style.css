@@ -3527,9 +3527,14 @@ div.panel {
   border-top: .3em solid transparent;
   border-bottom: .3em solid transparent; }
 
-.header-topbar {
+/* .header-topbar {
   padding: 10px;
-  background: #2d2d2d; }
+  background: #2d2d2d; } */
+
+.header-topbar {
+  padding: 20px;
+  background: #077a5f; }
+
 
 .header-top_address {
   color: #d8d8d8;
