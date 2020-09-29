@@ -16,13 +16,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider.jpg'?>" alt="First slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-1.jpg'?>" alt="First slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Bepikir Kreaftif &amp; Inovatif</h1>
-                            <h4>Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</h4>
+                            <h1>Donasi Ponpes</h1>
+                            <h4>Donasi Ponpes Tahfizh & Beasiswa Santri Ponpes Tahfizhul Qur'an Furqoon, Cileungsi, Bogor <br> Itulah yang kami lakukan.</h4>
                             <div class="slider-btn">
-                                <a href="<?php echo site_url('artikel');?>" class="btn btn-default">Learn more</a>
+                                <a href="<?php echo site_url('artikel');?>" class="btn btn-default">Baca Selangkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -31,10 +31,10 @@
                     <img class="d-block" src="<?php echo base_url().'theme/images/slider-2.jpg'?>" alt="Second slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Guru Bekualitas Tinggi</h1>
-                            <h4>Guru merupakan faktor penting dalam proses belajar-mengajar.<br> Itulah kenapa kami mendatangkan guru-guru <br>terbaik dari berbagai penjuru.</h4>
+                          <h1>Donasi Ponpes</h1>
+                          <h4>Donasi Ponpes Tahfizh & Beasiswa Santri Ponpes Tahfizhul Qur'an Furqoon, Cileungsi, Bogor <br> Itulah yang kami lakukan.</h4>
                             <div class="slider-btn">
-                                <a href="<?php echo site_url('guru');?>" class="btn btn-default">Learn more</a>
+                                <a href="<?php echo site_url('guru');?>" class="btn btn-default">Baca Selangkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -43,10 +43,10 @@
                     <img class="d-block" src="<?php echo base_url().'theme/images/slider-3.jpg'?>" alt="Third slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Proses Belajar Interatif</h1>
-                            <h4>Kami membuat proses belajar mengajar menjadi lebih interatif.<br> dengan demikian siswa lebih menyukai <br>proses belajar.</h4>
+                          <h1>Donasi Ponpes</h1>
+                          <h4>Donasi Ponpes Tahfizh & Beasiswa Santri Ponpes Tahfizhul Qur'an Furqoon, Cileungsi, Bogor <br> Itulah yang kami lakukan.</h4>
                             <div class="slider-btn">
-                                <a href="<?php echo site_url('galeri');?>" class="btn btn-default">Learn more</a>
+                                <a href="<?php echo site_url('galeri');?>" class="btn btn-default">Baca Selangkapnya</a>
                             </div>
                         </div>
                     </div>

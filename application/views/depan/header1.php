@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>About</title>
-    <link rel="shorcut icon" href="<?php echo base_url().'theme/images/WEB 02.png'?>">
+    <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
     <!-- Google Fonts -->
@@ -27,35 +27,33 @@
 
 <body>
     <!--============================= HEADER =============================-->
-  <div class="header-topbar">
-      <div class="container">
-          <div class="row">
-              <div class="col-xs-6 col-sm-8 col-md-9">
-                  <div class="header-top_address">
-                      <div class="header-top_list">
-                          <div class="icon-phone">
-                          <span> 0812.9591.8983 </span> | <span>0877.8319.6886</span>
-                          </div>
-                      </div>
-                      <div class="header-top_list">
-                          <span class="icon-envelope-open"></span>info@alfurqonpeduli.com
-                      </div>
-                      <!--<div class="header-top_list">
-                          <span class="icon-location-pin"></span>Padang, Sumatera Barat, INA. 11001
-                      </div>-->
-                  </div>
-                  <div class="header-top_login2">
-                      <a href="<?php echo site_url('contact');?>">Donasi</a>
-                  </div>
-              </div>
-              <div class="col-xs-6 col-sm-4 col-md-3">
-                  <div class="header-top_login mr-sm-3">
-                      <a href="<?php echo site_url('contact');?>">Donasi</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div class="header-topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-8 col-md-9">
+                    <div class="header-top_address">
+                        <div class="header-top_list">
+                            <span class="icon-phone"></span>00 55 22 66
+                        </div>
+                        <div class="header-top_list">
+                            <span class="icon-envelope-open"></span>info@mschool.com
+                        </div>
+                        <div class="header-top_list">
+                            <span class="icon-location-pin"></span>Padang, Sumatera Barat, INA. 11001
+                        </div>
+                    </div>
+                    <div class="header-top_login2">
+                        <a href="<?php echo site_url('contact');?>">Hubungi Kami</a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="header-top_login mr-sm-3">
+                        <a href="<?php echo site_url('contact');?>">Donasi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div data-toggle="affix" style="border-bottom:solid 1px #f2f2f2;">
         <div class="container nav-menu2">
             <div class="row">

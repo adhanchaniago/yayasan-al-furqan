@@ -353,6 +353,8 @@ a {
     .carousel-caption {
       top: 45%; } }
 
+
+/* di edit */
 .slider_title h1 {
   text-align: center;
   color: #fff;
@@ -366,6 +368,7 @@ a {
   color: #fff;
   text-align: center;
   line-height: 1.8; }
+
 
 .slider-btn {
   text-align: center;
@@ -3542,7 +3545,8 @@ div.panel {
 
 
 .header-top_address {
-  color: #d8d8d8;
+  font-family: 'Carnas';
+  color: #fff;
   font-size: 15px; }
   .header-top_address .header-top_list {
     display: inline-block;
@@ -3554,14 +3558,14 @@ div.panel {
       .header-top_address .header-top_list:nth-child(2) {
         display: none; } }
     .header-top_address .header-top_list span {
-      color: #cbb58b;
+      color: #fff;
       margin-right: 10px;
       font-size: 14px; }
   @media (max-width: 768px) {
     .header-top_address {
       display: inline-block; } }
 
-.header-top_login,
+/* .header-top_login,
 .header-top_login2 {
   float: right;
   color: #fff;
@@ -3575,7 +3579,7 @@ div.panel {
     .header-top_login a:hover, .header-top_login a:focus,
     .header-top_login2 a:hover,
     .header-top_login2 a:focus {
-      color: #cbb58b; }
+      color: #cbb58b; } */
 
 @media (max-width: 574px) {
   .header-top_login {
@@ -3658,4 +3662,75 @@ div.panel {
 	src: url('../fonts/Carnas_Regular.otf');
 	src: url('../fonts/Carnas_Regular.otf') format('otf'),
 	     url('../fonts/Carnas_Regular.otf') format('truetype');
+}
+
+.header-top_login,
+.header-top_login2 {
+  float: right;
+  color: #facc69;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 18px; }
+  .header-top_login a,
+  .header-top_login2 a {
+    background-color: #facc69;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #ffffff; }
+    .header-top_login a:hover, .header-top_login a:focus,
+    .header-top_login2 a:hover,
+    .header-top_login2 a:focus {
+      color: #29da90; }
+
+
+.header-top-donasi button,input[type=submit],input[type=reset] {
+    font-size: 15px;
+    background: #facc69;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+.header_top_donasi {
+  background-color: #facc69;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.f-yayasan {
+  font-family: 'Carnas';
+  color: white;
+  margin-bottom: 5px;
+  list-style: none;
+
+}
+
+.f-layanan {
+  font-family: 'Carnas';
+  color: white;
+  margin-bottom: 5px;
+}
+
+.f-kantor{
+  font-family: 'Carnas';
+  font-size: 12px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.cabang{
+  margin-top: 30px;
+}
+
+.f-menu {
+  margin-bottom: 20px;
+   border-bottom-width: 20px;
+   border-bottom-color: white;
 }
