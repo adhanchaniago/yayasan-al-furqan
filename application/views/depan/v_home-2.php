@@ -64,31 +64,6 @@
     </div>
 </section>
 <!--//END HEADER -->
-
-<!-- welcome -->
-
-<section class="welcome_about">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-              <img src="<?php echo base_url().'theme/images/welcome-img.png'?>" class="img-fluid" alt="#">
-          </div>
-            <div class="col-md-5">
-                <h2>Amalan Yang Paling di Cintai Allah</h2>
-                <p>Sesungguhnya amal yang dicintai oleh Allah Subhanahu wa Ta’ala adalah amal shalih yang dilakukan secara kontiyu (terus menerus) meskipun sedikit.
-                  Rasulullah Shallallahu ‘alahi wa sallam bersabda :
-                  “Wahai sekalian manusia. Kerjakanlah amalan – amalan sesuai dengan kemampuan kalian.
-                  Sesungguhnya Allah tidak bosan sampai kalian bosan. Dan sungguh, amalan yang paling dicintai oleh Allah yaitu yang dikerjakan secara terus – menerus walaupun sedikit.”
-                  (HR. al-Bukhari dan Muslim)
-                </p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-<!-- Welcome -->
-
 <!--============================= ABOUT =============================-->
 <section class="clearfix about about-style2">
     <div class="container">

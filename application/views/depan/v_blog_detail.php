@@ -1,5 +1,10 @@
 <?php include('header.php') ?>
-
+<?php
+    function limit_words($string, $word_limit){
+        $words = explode(" ",$string);
+        return implode(" ",array_splice($words,0,$word_limit));
+    }
+?>
 <!--============================= BLOG =============================-->
 <section class="blog-wrap">
     <div class="container">
