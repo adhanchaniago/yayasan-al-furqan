@@ -65,9 +65,17 @@
 </section>
 <!--//END HEADER -->
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="<?php echo base_url().'assets/images/alfurqon garis.png'?>" class="img-fluid" alt="">
+    </div>
+  </div>
+</div>
+
 <!-- welcome -->
 
-<section class="welcome_about">
+<!-- <section class="welcome_about"> -->
     <div class="container">
         <div class="row">
           <div class="col-md-7">
@@ -85,7 +93,7 @@
 
             </div>
         </div>
-    </section>
+    <!-- </section> -->
 
 <!-- Welcome -->
 
