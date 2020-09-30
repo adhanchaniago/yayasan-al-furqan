@@ -1,113 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include('header.php') ?>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>M School - Selamat Datang di M School</title>
-    <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php echo base_url().'theme/css/font-awesome.min.css'?>">
-    <!-- Simple Line Font -->
-    <link rel="stylesheet" href="<?php echo base_url().'theme/css/simple-line-icons.css'?>">
-    <!-- Slider / Carousel -->
-    <link rel="stylesheet" href="<?php echo base_url().'theme/css/slick.css'?>">
-    <link rel="stylesheet" href="<?php echo base_url().'theme/css/slick-theme.css'?>">
-    <link rel="stylesheet" href="<?php echo base_url().'theme/css/owl.carousel.min.css'?>">
-    <!-- Main CSS -->
-    <link href="<?php echo base_url().'theme/css/style.css'?>" rel="stylesheet">
-    <?php
-        function limit_words($string, $word_limit){
-            $words = explode(" ",$string);
-            return implode(" ",array_splice($words,0,$word_limit));
-        }
-    ?>
-</head>
-
-<body>
-    <!--============================= HEADER =============================-->
-    <div class="header-topbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-6 col-sm-8 col-md-9">
-                    <div class="header-top_address">
-                        <div class="header-top_list">
-                            <span class="icon-phone"></span>00 55 22 66
-                        </div>
-                        <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>info@mschool.com
-                        </div>
-                        <div class="header-top_list">
-                            <span class="icon-location-pin"></span>Padang, Sumatera Barat, INA. 11001
-                        </div>
-                    </div>
-                    <div class="header-top_login2">
-                        <a href="<?php echo site_url('contact');?>">Hubungi Kami</a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3">
-                    <div class="header-top_login mr-sm-3">
-                        <a href="<?php echo site_url('contact');?>">Hubungi Kami</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div data-toggle="affix">
-        <div class="container nav-menu2">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar navbar2 navbar-toggleable-md navbar-light bg-faded">
-                        <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
-                            <span class="icon-menu"></span>
-                        </button>
-                        <a href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="200px;" src="<?php echo base_url().'theme/images/logo-dark.png'?>"></a>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('');?>">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('about');?>">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('guru');?>">Guru</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('siswa');?>">Siswa</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('blog');?>">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('pengumuman');?>">Pengumuman</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('agenda');?>">Agenda</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('download');?>">Download</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('galeri');?>">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="<?php echo site_url('contact');?>">Contact</a>
-                                </li>
-                             </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-      </div>
-
-
+      <?php
+          function limit_words($string, $word_limit){
+              $words = explode(" ",$string);
+              return implode(" ",array_splice($words,0,$word_limit));
+          }
+      ?>
 <section>
     <div class="slider_img layout_two">
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -118,13 +16,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img class="d-block" src="<?php echo base_url().'theme/images/slider.jpg'?>" alt="First slide">
+                    <img class="d-block" src="<?php echo base_url().'theme/images/slider-1.jpg'?>" alt="First slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Bepikir Kreaftif &amp; Inovatif</h1>
-                            <h4>Bagi kami kreativitas merupakan gerbang masa depan.<br> kreativitas akan mendorong inovasi. <br> Itulah yang kami lakukan.</h4>
+                            <h1>Donasi Ponpes</h1>
+                            <h4>Donasi Ponpes Tahfizh & Beasiswa Santri Ponpes Tahfizhul Qur'an Furqoon, Cileungsi, Bogor <br> Itulah yang kami lakukan.</h4>
                             <div class="slider-btn">
-                                <a href="<?php echo site_url('artikel');?>" class="btn btn-default">Learn more</a>
+                                <a href="<?php echo site_url('artikel');?>" class="btn btn-default">Baca Selangkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -133,10 +31,10 @@
                     <img class="d-block" src="<?php echo base_url().'theme/images/slider-2.jpg'?>" alt="Second slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Guru Bekualitas Tinggi</h1>
-                            <h4>Guru merupakan faktor penting dalam proses belajar-mengajar.<br> Itulah kenapa kami mendatangkan guru-guru <br>terbaik dari berbagai penjuru.</h4>
+                          <h1>Donasi Ponpes</h1>
+                          <h4>Donasi Ponpes Tahfizh & Beasiswa Santri Ponpes Tahfizhul Qur'an Furqoon, Cileungsi, Bogor <br> Itulah yang kami lakukan.</h4>
                             <div class="slider-btn">
-                                <a href="<?php echo site_url('guru');?>" class="btn btn-default">Learn more</a>
+                                <a href="<?php echo site_url('guru');?>" class="btn btn-default">Baca Selangkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -145,10 +43,10 @@
                     <img class="d-block" src="<?php echo base_url().'theme/images/slider-3.jpg'?>" alt="Third slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
-                            <h1>Proses Belajar Interatif</h1>
-                            <h4>Kami membuat proses belajar mengajar menjadi lebih interatif.<br> dengan demikian siswa lebih menyukai <br>proses belajar.</h4>
+                          <h1>Donasi Ponpes</h1>
+                          <h4>Donasi Ponpes Tahfizh & Beasiswa Santri Ponpes Tahfizhul Qur'an Furqoon, Cileungsi, Bogor <br> Itulah yang kami lakukan.</h4>
                             <div class="slider-btn">
-                                <a href="<?php echo site_url('galeri');?>" class="btn btn-default">Learn more</a>
+                                <a href="<?php echo site_url('galeri');?>" class="btn btn-default">Baca Selangkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -166,6 +64,31 @@
     </div>
 </section>
 <!--//END HEADER -->
+
+<!-- welcome -->
+
+<section class="welcome_about">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+              <img src="<?php echo base_url().'theme/images/welcome-img.png'?>" class="img-fluid" alt="#">
+          </div>
+            <div class="col-md-5">
+                <h2>Amalan Yang Paling di Cintai Allah</h2>
+                <p>Sesungguhnya amal yang dicintai oleh Allah Subhanahu wa Ta’ala adalah amal shalih yang dilakukan secara kontiyu (terus menerus) meskipun sedikit.
+                  Rasulullah Shallallahu ‘alahi wa sallam bersabda :
+                  “Wahai sekalian manusia. Kerjakanlah amalan – amalan sesuai dengan kemampuan kalian.
+                  Sesungguhnya Allah tidak bosan sampai kalian bosan. Dan sungguh, amalan yang paling dicintai oleh Allah yaitu yang dikerjakan secara terus – menerus walaupun sedikit.”
+                  (HR. al-Bukhari dan Muslim)
+                </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- Welcome -->
+
 <!--============================= ABOUT =============================-->
 <section class="clearfix about about-style2">
     <div class="container">
@@ -300,73 +223,4 @@
 </div>
 <!--//END DETAILED CHART -->
 <!--============================= FOOTER =============================-->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="foot-logo">
-                    <a href="<?php echo site_url();?>">
-                        <img src="<?php echo base_url().'theme/images/logo-white.png'?>" class="img-fluid" alt="footer_logo">
-                    </a>
-                    <p><?php echo date('Y');?> © copyright by <a href="http://mfikri.com" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="sitemap">
-                        <h3>Menu Utama</h3>
-                        <ul>
-                            <li><a href="<?php echo site_url();?>">Home</a></li>
-                            <li><a href="<?php echo site_url('about');?>">About</a></li>
-                            <li><a href="<?php echo site_url('artikel');?>">Blog </a></li>
-                            <li><a href="<?php echo site_url('galeri');?>">Gallery</a></li>
-                            <li><a href="<?php echo site_url('contact');?>">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="sitemap">
-                      <h3>Akademik</h3>
-                      <ul>
-                          <li><a href="<?php echo site_url('guru');?>">Guru</a></li>
-                          <li><a href="<?php echo site_url('siswa');?>">Siswa </a></li>
-                          <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
-                          <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
-                          <li><a href="<?php echo site_url('download');?>">Download</a></li>
-                      </ul>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="address">
-                        <h3>Hubungi Kami</h3>
-                        <p><span>Alamat: </span> Padang, Sumatera Barat, INA. 11001</p>
-                        <p>Email : info@mschool.com
-                            <br> Phone : +91 555 668 986</p>
-                            <ul class="footer-social-icons">
-                                <li><a href="#"><i class="fa fa-facebook fa-fb" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin fa-in" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter fa-tw" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--//END FOOTER -->
-        <!-- jQuery, Bootstrap JS. -->
-        <script src="<?php echo base_url().'theme/js/jquery.min.js'?>"></script>
-        <script src="<?php echo base_url().'theme/js/tether.min.js'?>"></script>
-        <script src="<?php echo base_url().'theme/js/bootstrap.min.js'?>"></script>
-        <!-- Plugins -->
-        <script src="<?php echo base_url().'theme/js/slick.min.js'?>"></script>
-        <script src="<?php echo base_url().'theme/js/waypoints.min.js'?>"></script>
-        <script src="<?php echo base_url().'theme/js/counterup.min.js'?>"></script>
-        <script src="<?php echo base_url().'theme/js/owl.carousel.min.js'?>"></script>
-        <script src="<?php echo base_url().'theme/js/validate.js'?>"></script>
-        <script src="<?php echo base_url().'theme/js/tweetie.min.js'?>"></script>
-        <!-- Subscribe -->
-        <script src="<?php echo base_url().'theme/js/subscribe.js'?>"></script>
-        <!-- Script JS -->
-        <script src="<?php echo base_url().'theme/js/script.js'?>"></script>
-    </body>
-
-    </html>
+<?php include('footer.php') ?>

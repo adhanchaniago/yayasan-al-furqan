@@ -19,7 +19,7 @@
             <li class="f-yayasan">Telp: 021.82745523</li>
             <li class="f-yayasan">Call Center: 0877.8319.6886 atau 0812.9591.8983</li>
           </ul>
-          <!-- <p><?php echo date('Y');?> © copyright by <a href="http://mfikri.com" target="_blank">Baitulmal Al-Furqan</a>. <br>All rights reserved.</p> -->
+          <!-- <p><?php echo date('Y');?> © copyright by <a href="#" target="_blank">Baitulmal Al-Furqan</a>. <br>All rights reserved.</p> -->
         </div>
       </div>
       <div class="col-md-4">
