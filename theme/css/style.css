@@ -3734,3 +3734,23 @@ div.panel {
    border-bottom-width: 20px;
    border-bottom-color: white;
 }
+
+.h-program {
+  background-color: #077A5F;
+  border: 10px solid white;
+  padding: 15px;
+}
+
+.h-program-p {
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.h-program-judul {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 70px;
+  color: #077A5F;
+  text-align: center;
+}
