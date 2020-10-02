@@ -103,7 +103,7 @@
 
 
     <div class="row">
-      <div class="col-sm-3 h-program">
+      <div class="col-sm-3 h-program h-program-lgkp">
         <img src="<?php echo base_url().'assets/images/program-coin.png'?>" class="img-fluid" alt="">
         <p class="h-program-p">Kaleng infaq Coin4Dakwah merupakan program yang memberikan kemudahan
           kepada siapa saja yang mau membantu saudara - saudaranya baik dalam hal
@@ -111,6 +111,7 @@
           aktivis dakwah dan santunan para da'i dengan wadah kaleng infaq yang kami
           sediakan untuk dititipkan di rumah Anda.</p>
       </div>
+
 
       <div class="col-sm-3 h-program">
         <img src="<?php echo base_url().'assets/images/program-sedekah.png'?>" class="img-fluid" alt="">
@@ -146,6 +147,26 @@
         </p>
       </div>
     </div>
+
+
+    <div class="row">
+      <div class="col-sm-3 h-program1">
+        <a href="#" class="h-program-slgkp"><center>More Detail</center></a>
+      </div>
+      <div class="col-sm-3 h-program1">
+        <a href="#" class="h-program-slgkp"><center>More Detail</center></a>
+      </div>
+      <div class="col-sm-3 h-program1">
+        <a href="#" class="h-program-slgkp"><center>More Detail</center></a>
+      </div>
+      <div class="col-sm-3 h-program1">
+        <a href="#" class="h-program-slgkp"><center>More Detail</center></a>
+      </div>
+    </div>
+
+
+
+
 </div>
 <!--============================= Akhir Program =============================-->
 

@@ -3737,8 +3737,29 @@ div.panel {
 
 .h-program {
   background-color: #077A5F;
-  border: 10px solid white;
+  border-right:  10px solid white;
   padding: 15px;
+}
+
+.h-program1 {
+  background-color: #facc69;
+  border-right:  10px solid white;
+  padding: 15px;
+}
+
+.h-program-slgkp {
+  font-size: 20px;
+  font-family: 'Carnas';
+  font-style: bold;
+  color: white;
+  bottom: 10px;
+  margin-top: 100px;
+}
+
+.hr-program {
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+
 }
 
 .h-program-p {
