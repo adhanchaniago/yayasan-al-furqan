@@ -1,10 +1,49 @@
-<?php include('header.php') ?>
-<?php
-    function limit_words($string, $word_limit){
-        $words = explode(" ",$string);
-        return implode(" ",array_splice($words,0,$word_limit));
-    }
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php
+        function limit_words($string, $word_limit){
+            $words = explode(" ",$string);
+            return implode(" ",array_splice($words,0,$word_limit));
+        }
+    ?>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><?php echo $title;?></title>
+    <link rel="shorcut icon" href="<?php echo base_url().'theme/images/icon.png'?>">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="<?php echo base_url().'theme/css/font-awesome.min.css'?>">
+    <!-- Simple Line Font -->
+    <link rel="stylesheet" href="<?php echo base_url().'theme/css/simple-line-icons.css'?>">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="<?php echo base_url().'theme/css/owl.carousel.min.css'?>">
+    <!-- Main CSS -->
+    <link href="<?php echo base_url().'theme/css/style.css'?>" rel="stylesheet">
+    <!--Social Share-->
+    <link href="<?php echo base_url().'theme/css/jssocials.css'?>" rel="stylesheet">
+    <link href="<?php echo base_url().'theme/css/jssocials-theme-flat.css'?>" rel="stylesheet">
+    <style>
+    	.sharePopup{
+    		font-size: 11px;
+    	}
+      .sharePopup a{
+    		font-size: 11px;
+        color: #fff;
+        text-decoration: none;
+    	}
+    </style>
+
+</head>
+
+<body>
+  <!--============================= HEADER =============================-->
+<?php include('header-blog-detail.php') ?>
+<!--//END HEADER -->
 <!--============================= BLOG =============================-->
 <section class="blog-wrap">
     <div class="container">
@@ -170,4 +209,87 @@
 </section>
 <!--//END BLOG -->
 <!--============================= FOOTER =============================-->
-<?php include('footer.php') ?>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="foot-logo">
+                    <a href="<?php echo site_url();?>">
+                        <img src="<?php echo base_url().'theme/images/logo-white.png'?>" class="img-fluid" alt="footer_logo">
+                    </a>
+                    <p><?php echo date('Y');?> © copyright by <a href="http://mfikri.com" target="_blank">M Fikri</a>. <br>All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="sitemap">
+                        <h3>Menu Utama</h3>
+                        <ul>
+                            <li><a href="<?php echo site_url();?>">Home</a></li>
+                            <li><a href="<?php echo site_url('about');?>">About</a></li>
+                            <li><a href="<?php echo site_url('artikel');?>">Blog </a></li>
+                            <li><a href="<?php echo site_url('galeri');?>">Gallery</a></li>
+                            <li><a href="<?php echo site_url('contact');?>">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="sitemap">
+                      <h3>Akademik</h3>
+                      <ul>
+                          <li><a href="<?php echo site_url('guru');?>">Guru</a></li>
+                          <li><a href="<?php echo site_url('siswa');?>">Siswa </a></li>
+                          <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
+                          <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
+                          <li><a href="<?php echo site_url('download');?>">Download</a></li>
+                      </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="address">
+                        <h3>Hubungi Kami</h3>
+                        <p><span>Alamat: </span> Padang, Sumatera Barat, INA. 11001</p>
+                        <p>Email : info@mschool.com
+                            <br> Phone : +91 555 668 986</p>
+                            <ul class="footer-social-icons">
+                                <li><a href="#"><i class="fa fa-facebook fa-fb" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin fa-in" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter fa-tw" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--//END FOOTER -->
+        <!-- jQuery, Bootstrap JS. -->
+        <script src="<?php echo base_url().'theme/js/jquery.min.js'?>"></script>
+        <script src="<?php echo base_url().'theme/js/tether.min.js'?>"></script>
+        <script src="<?php echo base_url().'theme/js/bootstrap.min.js'?>"></script>
+        <!-- Plugins -->
+        <script src="<?php echo base_url().'theme/js/owl.carousel.min.js'?>"></script>
+        <script src="<?php echo base_url().'theme/js/validate.js'?>"></script>
+        <script src="<?php echo base_url().'theme/js/tweetie.min.js'?>"></script>
+        <!-- Subscribe -->
+        <script src="<?php echo base_url().'theme/js/subscribe.js'?>"></script>
+        <!-- Script JS -->
+        <script src="<?php echo base_url().'theme/js/script.js'?>"></script>
+        <script src="<?php echo base_url().'theme/js/jssocials.js'?>"></script>
+        <script>
+          $(document).ready(function(){
+            $(".sharePopup").jsSocials({
+                  showCount: true,
+            			showLabel: true,
+            			shareIn: "popup",
+            			shares: [
+            			{ share: "twitter", label: "Twitter" },
+            			{ share: "facebook", label: "Facebook" },
+            			{ share: "googleplus", label: "Google+" },
+            			{ share: "linkedin", label: "Linked In" },
+                  { share: "pinterest", label: "Pinterest" }
+            			]
+                });
+          });
+        </script>
+    </body>
+
+    </html>
