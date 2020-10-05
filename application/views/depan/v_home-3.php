@@ -101,10 +101,10 @@
   <h3 class="h-program-judul">PROGRAM</h3>
   <img src="<?php echo base_url().'assets/images/garis.png'?>" class="img-fluid" alt="">
 
-    <div class="row">
+    <div class="row align-items-end">
       <div class="col-sm-3 ">
         <div class="h-program h-program-lgkp">
-          <img src="<?php echo base_url().'assets/images/program/logo-putih1.png'?>" class="img-fluid" alt="">
+          <img src="<?php echo base_url().'assets/images/program/program-coin.png'?>" class="img-fluid" alt="">
           <p class="h-program-p">Kaleng infaq Coin4Dakwah merupakan program yang memberikan kemudahan
             kepada siapa saja yang mau membantu saudara - saudaranya baik dalam hal
             pengembangan pondok pesantren Tahfizhul Qur'an, beasiswa para penghafal Qur'an,
@@ -118,9 +118,9 @@
 
       </div>
 
-      <div class="col-sm-3  ">
+      <div class="col-sm-3 ">
         <div class="h-program h-program-lgkp">
-          <img src="<?php echo base_url().'assets/images/program/logo-putih2.png'?>" class="img-fluid" alt="">
+          <img src="<?php echo base_url().'assets/images/program/program-coin.png'?>" class="img-fluid" alt="">
           <p class="h-program-p">
             Kaleng infaq Coin4Dakwah merupakan program yang memberikan kemudahan kepada
             siapa saja yang mau membantu saudara - saudaranya baik dalam hal pengembangan
@@ -137,13 +137,16 @@
 
       <div class="col-sm-3 ">
         <div class="h-program h-program-lgkp">
-          <img src="<?php echo base_url().'assets/images/program/logo-putih3.png'?>" class="img-fluid" alt="">
-          <!-- <p class="h-program-p"> -->
+          <img src="<?php echo base_url().'assets/images/program/program-rescue.png'?>" class="img-fluid" alt="">
           <p class="h-program-p">
             Al Furqon Rescue merupakan program layanan masyarakat berupa mobil ambulan
             gratis 24 jam yang disediakan oleh Baitul Maal Al Furqon untuk membantu
             sesama dalam mempermudah masyarakat mendapat pertolongan,seperti:
-            pengantaran dan penjemputan jenazah, tanggap ibu melahirkan, gawat darurat dll.
+          </p>
+          <p class="h-program-p">
+            pengantaran
+            dan penjemputan jenazah, tanggap ibu melahirkan, gawat darurat, kegiatan sosial,
+            pelayanan kemanusiaan, dll.
           </p>
         </div>
 
@@ -153,9 +156,9 @@
 
       </div>
 
-      <div class="col-sm-3  ">
+      <div class="col-sm-3 ">
         <div class="h-program h-program-lgkp">
-          <img src="<?php echo base_url().'assets/images/program/logo-putih3.png'?>" class="img-fluid" alt="">
+          <img src="<?php echo base_url().'assets/images/program/program-sedekah.png'?>" class="img-fluid" alt="">
           <p class="h-program-p">
             Kami menawarkan kepada siapa saja yang bersedia membantu dengan memberikan
             beasiswa untuk para penghafal Al-Qur'an yang berpotensi namun terkendala
