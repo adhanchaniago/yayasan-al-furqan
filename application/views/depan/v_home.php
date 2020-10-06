@@ -159,7 +159,9 @@
           <p class="h-program-p">
             Kami menawarkan kepada siapa saja yang bersedia membantu dengan memberikan
             beasiswa untuk para penghafal Al-Qur'an yang berpotensi namun terkendala
-            biaya pendidikannya. Kami menyiapkan data para santri penghafal Al-Qur'an
+            biaya pendidikannya.
+
+            <br> Kami menyiapkan data para santri penghafal Al-Qur'an
             dari beberapa pondok pesantren yang membutuhkan uluran bantuan dari para muhsinin.
           </p>
         </div>

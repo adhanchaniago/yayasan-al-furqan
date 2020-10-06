@@ -284,8 +284,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased; }
 
-body {
-  font-family: "Carnas", serif; }
+/* body {
+  font-family: "Carnas", serif; } */
   /* font-family: "carnas", serif; } */
 
 
@@ -3738,6 +3738,7 @@ div.panel {
 .h-program {
   background-color: #077A5F;
   border-right:  10px solid white;
+  border-top:  20px solid white;
   padding: 15px;
 }
 
@@ -3746,6 +3747,7 @@ div.panel {
   border-right:  10px solid white;
   border-bottom: 30px solid white;
   padding: 15px;
+  font-family: 'Carnas';
 }
 
 .h-program-slgkp {
@@ -3766,6 +3768,7 @@ div.panel {
   margin-top: 30px;
   color: #fff;
   text-align: center;
+  font-family: arial;
 }
 
 .h-program-judul {
@@ -3774,4 +3777,5 @@ div.panel {
   margin-top: 70px;
   color: #077A5F;
   text-align: center;
+  font-family: 'Carnas';
 }
