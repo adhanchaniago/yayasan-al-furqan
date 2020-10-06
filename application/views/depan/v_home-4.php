@@ -179,7 +179,7 @@
 
 
 <!--============================= ABOUT =============================-->
-<!-- <section class="clearfix about about-style2">
+<section class="clearfix about about-style2">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -192,10 +192,7 @@
             </div>
         </div>
     </div>
-</section> -->
-
-<h3 style="margin-top: 50px; margin-bottom: 50px;"><center>Proses Bagian Galery</h3>
-
+</section>
 <!--//END ABOUT -->
 
 <!--============================= Awal Post Populer =============================-->
@@ -209,7 +206,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Aktivitas Terbaru</h2>
+                <h2>Artikel Terbaru</h2>
             </div>
         </div>
         <div class="row">
@@ -236,6 +233,47 @@
 </section>
 <!--//END OUR COURSES -->
 <!--============================= EVENTS =============================-->
+<section class="event">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="event-img2">
+                <?php foreach ($pengumuman->result() as $row) :?>
+                <div class="row">
+                    <div class="col-sm-3"> <img src="<?php echo base_url().'theme/images/announcement-icon.png'?>" class="img-fluid" alt="event-img"></div><!-- // end .col-sm-3 -->
+                    <div class="col-sm-9"> <h3><a href="<?php echo site_url('pengumuman');?>"><?php echo $row->pengumuman_judul;?></a></h3>
+                      <span><?php echo $row->tanggal;?></span>
+                      <p><?php echo limit_words($row->pengumuman_deskripsi,10).'...';?></p>
+
+                    </div><!-- // end .col-sm-7 -->
+                </div><!-- // end .row -->
+                <?php endforeach;?>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-md-12">
+                      <?php foreach ($agenda->result() as $row):?>
+                        <div class="event_date">
+                            <div class="event-date-wrap">
+                                <p><?php echo date("d", strtotime($row->agenda_tanggal));?></p>
+                                <span><?php echo date("M. y", strtotime($row->agenda_tanggal));?></span>
+                            </div>
+                        </div>
+                        <div class="date-description">
+                            <h3><a href="<?php echo site_url('agenda');?>"><?php echo $row->agenda_nama;?></a></h3>
+                            <p><?php echo limit_words($row->agenda_deskripsi,10).'...';?></p>
+                            <hr class="event_line">
+                        </div>
+                        <?php endforeach;?>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 <!--//END EVENTS -->
 <!--============================= DETAILED CHART =============================-->
 

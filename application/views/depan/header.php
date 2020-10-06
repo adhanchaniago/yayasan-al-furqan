@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About</title>
+    <title>Yayasan Alfurqon</title>
     <link rel="shorcut icon" href="<?php echo base_url().'theme/images/WEB 02.png'?>">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url().'theme/css/bootstrap.min.css'?>">
@@ -71,25 +71,26 @@
                                     <a class="nav-link" href="<?php echo site_url('');?>">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('about');?>">Tentang</a>
+                                    <a class="nav-link" href="">Profil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('guru');?>">Stuktur Organisasi</a>
+                                    <a class="nav-link" href="">Program</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('blog');?>">Artikel</a>
+                                    <a class="nav-link" href="<?php echo site_url('blog');?>">Aktivitas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('agenda');?>">Agenda</a>
+                                    <a class="nav-link" href="#">Galeri</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('download');?>">Download</a>
+                                    <a class="nav-link" href="#">Artikel</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('galeri');?>">Gallery</a>
+                                  <!-- <a class="nav-link" href="<?php echo site_url('download');?>">Download</a> -->
+                                    <a class="nav-link" href="#">Download</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link" href="<?php echo site_url('contact');?>">Contact</a>
+                                  <a class="nav-link" href="#">Karir</a>
                                 </li>
                           </ul>
                     </div>
